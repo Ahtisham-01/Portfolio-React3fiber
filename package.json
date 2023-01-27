@@ -10,9 +10,11 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@react-three/drei": "9.28.3",
     "@react-three/fiber": "8.7.2",
+    "lottie-web": "^5.10.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
+    "swiper": "^8.4.6",
     "three": "0.144.0"
   },
   "scripts": {
@@ -40,5 +42,8 @@
     "animation",
     "gltf"
   ],
-  "description": "Small example made for a Learn-with-Jason episode."
+  "description": "Small example made for a Learn-with-Jason episode.",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
