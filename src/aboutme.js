@@ -1,7 +1,6 @@
 import React from 'react'
 import './aboutme.css'
-import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export const aboutme = () => {
@@ -9,14 +8,14 @@ export const aboutme = () => {
     <div>
       <div className="about-wrapper">
         <div className="about-left">
-          <div className="about-left-content">
-            <div>
+          <div className="about-left-content s">
+            <div className='xs:pt-[50px] xs:pb-2 xs:pl-2 xs:pr-2 sm:pt-[64px] sm:pr-[64px] sm:pb-2 sm:pl-[80px]'>
               <div className="shadow">
                 <div className="about-img rounded-[50px] w-[210px] h-[200px] image-border">
                   <img src="../../Profile-removebg-preview.png" alt="about image" />
                 </div>
               </div>
-              <h2 className='font-semibold'>Ehtisham Kiani</h2>
+              <h2 className='font-semibold sm:text-[32px]'>Ehtisham Kiani</h2>
               {/* <h3>Web developer</h3> */}
             </div>
 
@@ -45,7 +44,7 @@ export const aboutme = () => {
             </ul>
           </div>
         </div>
-        <div className="about-right">
+        <div className="about-right xs:hidden sm:block">
           <h2>
             Hello<span>!</span>
           </h2>

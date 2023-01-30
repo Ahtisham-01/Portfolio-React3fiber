@@ -27,13 +27,13 @@ export default function App() {
   return (
     <>
       <div className="bg">
-        <h1>
-          my <span style={{ fontSize: '0.4em' }}>Portfolio</span>
-          <br />
-          <br />
+        <p className='text-new-class xs:text-[2.5em] sm:text-[5.1em]'>
+          {/* my <span style={{ fontSize: '0.4em' }}>Portfolio</span> */}
+          {/* <br /> */}
+          {/* <br /> */}
           <span>Ehtisham</span>
           <span style={{ fontSize: '0.4em' }}>kiani</span>
-        </h1>
+        </p>
         <div className="">
           <Canvas dpr={[1.5, 2]} linear shadows>
             <fog attach="fog" args={['#272730', 16, 30]} />

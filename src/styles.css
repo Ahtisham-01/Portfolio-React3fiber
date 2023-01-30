@@ -57,7 +57,18 @@ h1 {
   letter-spacing: -2px;
   text-align: left;
 }
-
+.text-new-class {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  font-weight: 900;
+  /* font-size: 5.1em; */
+  margin: 0;
+  color: peru;
+  line-height: 0.6em;
+  letter-spacing: -2px;
+  text-align: left;
+}
 h1 > span {
   white-space: pre;
 }
@@ -133,7 +144,6 @@ a.bottom-right {
 }
 .main-images-div {
   /* left:/300px; */
-  padding: 24px 24px 0px 224px;
   top: 250px;
   background-color: orange;
 }
@@ -150,13 +160,13 @@ a.bottom-right {
 }
 .grids {
   padding-top: 20px;
-  display: grid;
+  /* display: grid; */
   /* position: ; */
   /* align-items: center; */
   /* text */
   /* background-color: gray; */
   grid-gap: 32px;
-  grid-template-columns: repeat(3, minmax(0, 100%));
+  /* grid-template-columns: repeat(3, minmax(0, 100%)); */
 }
 .boxs {
   padding: 10px;
@@ -231,8 +241,6 @@ a.bottom-right {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   width: 100%;
   /* border-radius: 6px; */
-  height: 80px;
-  top: 150px;
 }
 .contant-name {
   font-weight: 700;
