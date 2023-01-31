@@ -15,7 +15,7 @@ export const aboutme = () => {
                   <img src="../../Profile-removebg-preview.png" alt="about image" />
                 </div>
               </div>
-              <h2 className='font-semibold sm:text-[32px]'>Ehtisham Kiani</h2>
+              <h2 className='font-semibold card-class sm:text-[32px]'>Ehtisham Kiani</h2>
               {/* <h3>Web developer</h3> */}
             </div>
 

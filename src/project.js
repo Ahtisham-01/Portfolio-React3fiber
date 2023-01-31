@@ -59,18 +59,18 @@ export const project = () => {
             </h1>
           </div> */}
           <div className="relative flex justify-center">
-            <div className="w-full absolute xs:gap-6 sm:gap-8 md:gap-12 lg:gap-32 te xl:gap-72 flex pt-[24px] pr-[24px] pb-[0px] xs:pl-[14px] sm:pl-[40px] md:pl-[80px] lg:pl-[140px] xl:pl-[224px] main-images-div">
+            <div className="w-full absolute xs:gap-6 sm:gap-8 md:gap-12 lg:gap-32 te xl:gap-72 flex pt-[24px] pr-[24px] pb-[0px] xs:pl-[14px] sm:pl-[40px] md:pl-[80px] lg:pl-[140px] xl:pl-[224px] xs:top-[80px] sm:top:[250px] main-images-div">
               <img
                 className="xs:w-[60px] sm:w-[150px] md:w-[200px] ease-in duration-300 transition  images"
                 src="https://tuk-cdn.s3.amazonaws.com/can-uploader/IMG-20230127-WA0007-removebg-preview%20%281%29.png"
               />
 
               <div className="md:pr-8 lg:pr-10">
-                <p className="xs:text-base sm:text-xl md:text-2xl text-[#1e293b] ease-in duration-300 transition  font-bold about-me sm:pt-12 md:pt-14 lg:pt-16 xl:pt-24">
+                <p className="xs:text-sm sm:text-xl md:text-2xl text-[#1e293b] ease-in duration-300 transition  font-bold about-me sm:pt-12 md:pt-14 lg:pt-16 xl:pt-24">
                   {' '}
                   About Me :-
                 </p>
-                <p className="xs:text-[8px] sm:text-sm md:text-lg ease-in duration-300 transition  font-bold about-me text-slate-100 pt-2 pb-2">
+                <p className="xs:text-[8px] sm:text-sm md:text-lg ease-in duration-300 transition  font-bold about-me text-slate-100 sm:pt-2 pb-2">
                   {' '}
                   I am a Font End Web Develper , 3D Artists , Game Develper . I can provide clean code and pixel perfect design. I also make the website more &
                   more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with
@@ -99,9 +99,9 @@ export const project = () => {
             {/* <LottieAnimation /> */}
             {/* <LottieAnimation/> */}
           </div>
-          <div className="xs:pt-[350px] sm:pt-[500px] lg:pt-80  align-center text-center ">
+          <div className="xs:pt-[150px] sm:pt-[500px] lg:pt-80  align-center text-center ">
             {' '}
-            <p class=" xs:text-xl sm:text-3xl font-bold  text-[peru] pb-10">MY PROJECTS</p>
+            <p class=" xs:text-xl sm:text-3xl font-bold my-project-text text-[peru] xs:pb-6 sm:pb-10">MY PROJECTS</p>
             {/* <Swiper
               spaceBetween={30}
               centeredSlides={true}
@@ -121,19 +121,19 @@ export const project = () => {
               <SwiperSlide></SwiperSlide>
               <SwiperSlide></SwiperSlide>
             </Swiper> */}
-            <div className="grid gap-14 xs:grid-cols-1 lg:grid-cols-3 lg:grid lg:pr-6 lg:pl-6 sm:pl-32 sm:pr-32 xs:pl-2 xs:pr-2">
+            <div className="card-text grid xs:gap-8 sm:gap-14 xs:grid-cols-1 lg:grid-cols-3 lg:grid lg:pr-6 lg:pl-6 sm:pl-32 sm:pr-32 xs:pl-10 xs:pr-10">
               <div className="boxs ">
                 <div className="relative">
-                  <img className="w-full xs:h-[160px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../firsts-image.jpg" />
-                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[120px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
+                  <img className="w-full xs:h-[140px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../firsts-image.jpg" />
+                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[100px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
                     <p className="lg:text-sm xl:text-lg xs:text-xs sm:text-base font-bold card-class text-white pt-2">Click the Link to check the Project:-</p>
                   </div>
                 </div>
               </div>
               <div className="boxs ">
                 <div className="relative">
-                  <img className="w-full xs:h-[160px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../three-images.jpg" />
-                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[120px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
+                  <img className="w-full xs:h-[140px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../three-images.jpg" />
+                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[100px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
                     {' '}
                     <p className="lg:text-sm xl:text-lg xs:text-xs sm:text-base font-bold card-class text-slate-200 pt-2">Click the Link to check the Project:-</p>
                   </div>
@@ -141,8 +141,8 @@ export const project = () => {
               </div>
               <div className="boxs ">
                 <div className="relative">
-                  <img className="w-full xs:h-[160px] sm:h-[260px] lg:h-[180px] xl:h-[230pdx]" src="../../game-images.jpg" />
-                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[120px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
+                  <img className="w-full xs:h-[140px] sm:h-[260px] lg:h-[180px] xl:h-[230pdx]" src="../../game-images.jpg" />
+                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[100px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
                     {' '}
                     <p className="lg:text-sm xl:text-lg xs:text-xs sm:text-base font-bold card-class text-slate-200 pt-2">Click the Link to check the Project:-</p>
                   </div>
@@ -150,8 +150,8 @@ export const project = () => {
               </div>{' '}
               <div className="boxs ">
                 <div className="relative">
-                  <img className="w-full xs:h-[160px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../threed-images.jpg" />
-                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[120px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
+                  <img className="w-full xs:h-[140px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../threed-images.jpg" />
+                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[100px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
                     {' '}
                     <p className="lg:text-sm xl:text-lg xs:text-xs sm:text-base font-bold card-class text-slate-200 pt-2">Click the Link to check the Project:-</p>
                   </div>
@@ -159,8 +159,8 @@ export const project = () => {
               </div>{' '}
               <div className="boxs ">
                 <div className="relative">
-                  <img className="w-full xs:h-[160px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../second-images.png" />
-                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[120px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
+                  <img className="w-full xs:h-[140px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../second-images.png" />
+                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[100px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
                     {' '}
                     <p className="lg:text-sm xl:text-lg xs:text-xs sm:text-base font-bold card-class text-slate-200 pt-2">Click the Link to check the Project:-</p>
                   </div>
@@ -168,19 +168,19 @@ export const project = () => {
               </div>{' '}
               <div className="boxs ">
                 <div className="relative">
-                  <img className="w-full xs:h-[160px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../new-images.webp" />
-                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[120px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
+                  <img className="w-full xs:h-[140px] sm:h-[260px] lg:h-[180px] xl:h-[230px]" src="../../new-images.webp" />
+                  <div className="absolute  xs:h-[40px] sm:h-[80px] lg:h-[60px] xl:h-[80px] xs:top-[100px] sm:top-[180px] md:top-[180px] lg:top-[120px] xl:top-[150px] card-div">
                     {' '}
                     <p className="lg:text-sm xl:text-lg xs:text-xs sm:text-base font-bold card-class text-slate-200 pt-2">Click the Link to check the Project:-</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-full bg-[#1e293b] mt-44 pt-2 pr-2 pl-2 pb-2">
+            <div className="w-full bg-[#1e293b] card-class xs:mt-24 sm:mt-44 pt-2 pr-2 pl-2 pb-2">
               <div>
-                <h2 className="contant-name pt-6">Ehtisham Nawaz Kiani</h2>
+                <h2 className="contant-name sm:text-[25px] xs:text-[18px] pt-6">Ehtisham Nawaz Kiani</h2>
                 <p className="pt-10 xs:text-[12px] sm:text-lg text-slate-100">If you want to contant with then get me on these place.</p>
-                <p className="pt-4 text-lg text-slate-100">Thank you </p>
+                <p className="pt-4 xs:text-sm sm:text-lg text-slate-100">Thank you </p>
                 <ul className="new-icons">
                   <li>
                     <i className="">

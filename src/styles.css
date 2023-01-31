@@ -1,5 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 html,
 body,
 #root,
@@ -59,8 +59,11 @@ h1 {
 }
 .text-new-class {
   position: absolute;
-  top: 80px;
-  left: 60px;
+  top: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  left: 20px;
+  /* font-family:; */
   font-weight: 900;
   /* font-size: 5.1em; */
   margin: 0;
@@ -72,7 +75,10 @@ h1 {
 h1 > span {
   white-space: pre;
 }
-
+.card-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
 .layer {
   position: absolute;
   bottom: 0;
@@ -82,7 +88,14 @@ h1 > span {
   background: linear-gradient(0deg, rgba(63, 12, 88, 0.25) 0%, transparent 100%);
   pointer-events: none;
 }
-
+.card-class {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+}
+.my-project-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
 span.header {
   font-weight: 700;
   position: absolute;
@@ -144,7 +157,6 @@ a.bottom-right {
 }
 .main-images-div {
   /* left:/300px; */
-  top: 250px;
   background-color: orange;
 }
 .my-projects {
@@ -244,7 +256,7 @@ a.bottom-right {
 }
 .contant-name {
   font-weight: 700;
-  font-size: 25px;
+  /* font-size: 25px; */
   /* margin: 0; */
   color: peru;
   line-height: 0.6em;
